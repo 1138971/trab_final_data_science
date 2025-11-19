@@ -22,14 +22,14 @@ Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "cha
      
   
 **Lógica do dicionário substituições:**
-   - realiza a tradução de textos;
-   - ela lê uma coluna, identifica certos motivos escritos de várias maneiras e substitui cada um deles por uma categoria padronizada.
+   - realiza a padronização dos dados da coluna escolhida;
+   - ela lê uma coluna, identifica possíveis erros de escrtita, e ou o mesmo texto escrito de maneiras diferentes e substitui cada um deles por uma categoria padronizada.
      
 **Lógica da função verifica_influencia_familia:**
    - ela verifica se a palavra “familiares” aparece em cada resposta da coluna e, com base nisso, devolve True ou False.
 
 **Lógica da função chance_desistencia:**
-   - ela verifica se o valor recebido é **True** ou **False** e devolve se é "Mais provável" ou "Menos provável" o(a) aluno(a) desistir do curso, com base se a decisão do aluno, de igressar no curso, teve influência ou pressão familiar.
+   - ela verifica se o valor recebido é **True** ou **False** e devolve se é "Mais provável" ou "Menos provável" que o(a) aluno(a) desistir do curso, com base somente se teve influência de terceiros.
 
 **Justificativa da transformação:**
    - padronizar os dados de uma coluna em um arquivo CSV é fundamental para garantir qualidade, consistência e confiabilidade em um projeto de pesquisa;
@@ -38,6 +38,6 @@ Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "cha
    - permite integração com outros conjuntos de dados.
 
 **Impacto prático:**
-   - comparar informações, quantos alunos que desistiram tinha a opção Influência de terceiros como True;
+   - comparar informações, quantos alunos que desistiram tinham a opção Influência de terceiros como True;
    - caso essa comparção tenha um resultado satisfatório, esse ponto se tornaria de interesse para a instuição;
    - à partir disso, um estudo seria feito e cima desses dados para reduzir esse número de desistentes.
