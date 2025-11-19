@@ -13,6 +13,7 @@ Motivos pela escolha da coluna:
     - textos livres contêm erros de escrita(ruídos);
 
   
+  
  Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "chance_desistencia", e essa nova coluna:
    - analisa a coluna "Por quais motivos você escolheu cursar CC?";
    - verifica se existe um(a) aluno(a) que teve influência familiar na hora da decisão de escolher o curso;
