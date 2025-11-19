@@ -20,9 +20,12 @@ Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "cha
    - pressão familiar PODE SER um dos fatores que leva o(a) aluno(a) à desistência.
      
   
-Lógica do dicionário(substituições) criado:
-   - funciona como um mecanismo de tradução de textos;
+Lógica do dicionário substituições:
+   - realiza a tradução de textos;
    - ela lê uma coluna, identifica certos motivos escritos de várias maneiras e substitui cada um deles por uma categoria padronizada.
      
 Lógica da função verifica_influencia_familia:
    - ela verifica se a palavra “familiares” aparece em cada resposta da coluna e, com base nisso, devolve True ou False.
+
+Lógica da função chance_desistencia:
+   - ela verifica se o valor recebido é True e devolve True ou False com base se a decisão do aluno, de igressar no curso, teve influência ou pressão familiar.
