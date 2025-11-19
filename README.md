@@ -1,6 +1,6 @@
-# **trab_final_data_science**
+# *-----------------trab_final_data_science--------------------*
 
-Nome: Júlio Vinicius Tasca Mendes     =================    RA: 1138971
+Nome: **Júlio Vinicius Tasca Mendes**     =================    RA: **1138971**
 
 O dataset escolhido foi: **Escolha do curso de CC - 2025.1**
 
@@ -28,7 +28,7 @@ Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "cha
    - ela verifica se a palavra “familiares” aparece em cada resposta da coluna e, com base nisso, devolve True ou False.
 
 **Lógica da função chance_desistencia:**
-   - ela verifica se o valor recebido é True e devolve True ou False com base se a decisão do aluno, de igressar no curso, teve influência ou pressão familiar.
+   - ela verifica se o valor recebido é True e devolve se é "Mais provável" ou "Menos provável" o(a) aluno(a) desistir do curso, com base se a decisão do aluno, de igressar no curso, teve influência ou pressão familiar.
 
 **Justificativa da transformação:**
    - padronizar os dados de uma coluna em um arquivo CSV é fundamental para garantir qualidade, consistência e confiabilidade em um projeto de pesquisa;
