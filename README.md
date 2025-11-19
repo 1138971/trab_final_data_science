@@ -11,13 +11,18 @@ Motivos pela escolha da coluna:
 
    - é uma coluna aberta, com resposta livre, sendo assim, surgiram respostas inconsistentes, com variações de escrita, sinônimos, entre outros problemas;
    - como a pergunta é ampla, é necessário transformar respostas livres em categorias analisáveis, como: Interesse pessoal, Influência familiar/amigos, Mercado de trabalho;
-   - textos livres contêm erros de escrita(ruídos);
+   - textos livres contêm erros de escrita(ruídos).
 
   
- Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "chance_desistencia", e essa nova coluna:
+Além do tratamento da coluna escolhida, foi criada uma nova coluna chamada "chance_desistencia", e essa nova coluna:
    - analisa a coluna "Por quais motivos você escolheu cursar CC?";
    - verifica se existe um(a) aluno(a) que teve influência familiar na hora da decisão de escolher o curso;
-   - pressão familiar PODE SER um dos fatores que leva o(a) aluno(a) à desistência;
+   - pressão familiar PODE SER um dos fatores que leva o(a) aluno(a) à desistência.
      
   
- 
+Lógica do dicionário(substituições) criado:
+   - funciona como um mecanismo de tradução de textos;
+   - ela lê uma coluna, identifica certos motivos escritos de várias maneiras e substitui cada um deles por uma categoria padronizada.
+     
+Lógica da função verifica_influencia_familia:
+   - ela verifica se a palavra “familiares” aparece em cada resposta da coluna e, com base nisso, devolve True ou False.
